@@ -29,8 +29,8 @@ HexStrike is the bridge that exposes 150+ security tools to your LLM.
 Option A: APT Install (Fastest)
 bash
 
-sudo apt update
-sudo apt install -y hexstrike-ai
+#sudo apt update
+#sudo apt install -y hexstrike-ai
 
 This installs both hexstrike_server and hexstrike_mcp as system binaries.
 Option B: Manual Install (Recommended for Video — More Control)
