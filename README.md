@@ -187,22 +187,22 @@ Merge this into the existing JSON (keep your preferences block):
 
 
     json
-{
-  "mcpServers": {
-    "hexstrike-ai": {
-      "command": "/home/kali/Desktop/hexstrike-ai/hexstrike-env/bin/python",
-      "args": [
-        "/home/kali/Desktop/hexstrike-ai/hexstrike_mcp.py",
-        "--server",
-        "http://localhost:8888"
-      ],
-      "env": {
-        "HEXSTRIKE_SERVER": "http://localhost:8888",
-        "HEXSTRIKE_TIMEOUT": "300"
+    {
+      "mcpServers": {
+        "hexstrike-ai": {
+          "command": "/home/kali/Desktop/hexstrike-ai/hexstrike-env/bin/python",
+          "args": [
+            "/home/kali/Desktop/hexstrike-ai/hexstrike_mcp.py",
+            "--server",
+            "http://localhost:8888"
+          ],
+          "env": {
+            "HEXSTRIKE_SERVER": "http://localhost:8888",
+            "HEXSTRIKE_TIMEOUT": "300"
+          }
+        }
       }
     }
-  }
-}
 
 
 Critical notes:
