@@ -1,0 +1,12 @@
+# 🎬 Technology Mask Man — Full Setup Guide
+
+# Video Title : How Anyone Can Find You By Just Your Username Or Name or Picture | OSINT
+
+# Part 0: The Setup (Kali Linux)
+Kali's system Python is "externally managed," so pip3 install will fail. Use pipx instead .
+  bash
+
+  sudo apt update
+  sudo apt install -y pipx
+  pipx ensurepath
+  exec $SHELL
